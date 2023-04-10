@@ -65,3 +65,20 @@
     }
   }
 }
+
+@media (max-width: 991.8px) {
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    &__link {
+      margin: 12px auto;
+    }
+    &__link a {
+      margin-left: 24px;
+    }
+    &__contact {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
