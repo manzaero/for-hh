@@ -1,0 +1,67 @@
+.footer {
+  &__bg {
+    background-color: $lightgray;
+  }
+}
+.footer-menu {
+  display: flex;
+  height: 96px;
+  color: $gray;
+  justify-content: space-between;
+  &__link {
+    display: flex;
+    padding: 0;
+    margin-left: 96px;
+  }
+  &__link a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 48px;
+    cursor: pointer;
+  }
+  &__link, &__contact {
+    margin-top: 37px;
+  }
+  &__contact {
+    display: flex;
+  }
+  &__tel, &__address{
+    display: flex;
+  }
+  &__icon-phone, &__icon-location {
+    margin-right: 10px;
+  }
+  &__number p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-right: 54px;
+  }
+  &__city p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+@media (max-width: 1399px) {
+  .footer-menu {
+    &__link {
+      margin-left: 0px;
+    }
+    &__number p{
+      margin-right: 24px;
+    }
+  }
+}
+@media (max-width: 1199.8px) {
+  .footer-menu {
+    &__link a {
+      margin-left: 24px;
+    }
+    &__contact {
+      display: block;
+      margin-top: auto;
+    }
+  }
+}
