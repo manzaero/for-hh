@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer footer__bg">
+  <footer class="footer footer__bg fixed-bottom">
     <div class="container">
       <div class="footer-menu">
         <ul class="footer-menu__link">

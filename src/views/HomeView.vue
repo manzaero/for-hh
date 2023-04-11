@@ -1,11 +1,13 @@
 <template>
   <div class="container">
-      <h1>test</h1>
+    <the-catalog/>
   </div>
 </template>
 
 <script>
+import TheCatalog from "@/components/TheCatalog";
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  components:{TheCatalog}
 }
 </script>

@@ -82,3 +82,25 @@
     }
   }
 }
+@media (max-width: 491.8px) {
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &__link {
+      display: flex;
+      flex-direction: column;
+    }
+    &__link a {
+      margin: 6px auto;
+    }
+    &__contact {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    &__tel {
+      margin: 0 auto;
+    }
+  }
+}
