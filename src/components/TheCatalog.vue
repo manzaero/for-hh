@@ -21,7 +21,7 @@
             <div class="container-box__price" :class="['container-box__not-discount', {active: !t.discount}]">{{ t.price }} <i v-if="!t.price">$</i></div>
           </div>
           <div class="container-box__btn" v-if="t.count !== 0">
-            <button class="btn container-box__button">Купить</button>
+            <the-button/>
           </div>
         </div>
       </div>
@@ -30,6 +30,7 @@
 </template>
 
 <script>
+import TheButton from "@/components/TheButton";
 export default {
   inject:['query'],
   data(){
@@ -69,10 +70,7 @@ export default {
       )
     }
   },
-  name: "TheCatalog"
+  name: "TheCatalog",
+  components:{TheButton}
 }
 </script>
-
-<style scoped>
-
-</style>
