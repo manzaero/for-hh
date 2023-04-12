@@ -31,9 +31,9 @@
 
 <script>
 export default {
+  inject:['query'],
   data(){
     return {
-      ticker:'',
       tickers:[
         {
           img:'img1',
@@ -65,7 +65,7 @@ export default {
   },
   computed:{
     filterTicker(){
-      return this.tickers.filter((ticker) => ticker.name.indexOf(this.ticker) > -1
+      return this.tickers.filter((query) => query.name.indexOf(this.query) > -1
       )
     }
   },

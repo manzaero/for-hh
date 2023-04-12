@@ -15,6 +15,7 @@ import TheHeader from "@/components/header/TheHeader";
 import TheFooter from "@/components/footer/TheFooter";
 import TheMain from "@/components/TheMain";
 export default {
+  provide:['query', 'updateQuery'],
   components: {TheHeader, TheFooter, TheMain}
 }
 </script>

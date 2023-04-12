@@ -14,7 +14,23 @@
 </template>
 
 <script>
+import {computed} from 'vue'
 export default {
+  data(){
+    return {
+      query:''
+    }
+  },methods: {
+    updateQuery(search) {
+      this.query = search
+    }
+  },
+  provide() {
+    return {
+      query: computed(() => this.query),
+      updateQuery: this.updateQuery
+    }
+  },
   name: 'HelloWorld'
 }
 </script>

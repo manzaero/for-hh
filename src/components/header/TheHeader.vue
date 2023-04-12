@@ -13,7 +13,8 @@
         </div>
         <form class="header-menu__search">
             <input
-                v-model="ticker"
+                :value="query"
+                @input="updateQuery($event.target.value)"
                 class="header-menu__search-input"
                 type="search"
                 placeholder="Поиск по названию картины"
@@ -27,8 +28,10 @@
 <script>
 import TheBurger from "@/components/header/TheBurger";
 export default {
-  props:{
-    ticker: String
+  inject:['query', 'updateQuery'],
+  data(){
+    return {
+    }
   },
   name: "TheHeader",
   components:{TheBurger}
