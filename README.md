@@ -1,9 +1,17 @@
 # job
 
-## Project setup
+Project setup
 ```
 npm install
-```
+
+Getting Started
+Install:
+
+npm install -g @vue/cli
+
+Cloning a repository
+
+git clone https://github.com/manzaero/for-hh
 
 ### Compiles and hot-reloads for development
 ```
