@@ -1,0 +1,36 @@
+{
+  "tickers":[
+    {
+      "id": "1",
+      "img":"img1",
+      "name": "«рождение венеры» сандро боттичелли",
+      "price": "1 000 000",
+      "available":true,
+      "discount": "2 000 000"
+    },
+    {
+      "id": "2",
+      "img":"img2",
+      "name": "«тайная вечеря»  леонардо да винчи",
+      "price": "3 000 000",
+      "available":true,
+      "discount": ""
+    },
+    {
+      "id": "3",
+      "img":"img3",
+      "name": "«сотворение адама» микеланджело",
+      "price": "1 000 000",
+      "available":true,
+      "discount": "6 000 000"
+    },
+    {
+      "id": "4",
+      "img":"img4",
+      "name": "«урок анатомии»  рембрандт",
+      "price": "Продана на аукционе",
+      "available":false,
+      "discount": ""
+    }
+  ]
+}

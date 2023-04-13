@@ -19,16 +19,9 @@ export default {
   data(){
     return {
       loading: false,
-      sales:'В корзине'
     }
   },
   methods: {
-    loadMore() {
-      this.loading = true
-      setTimeout(() => {
-        this.loading = false
-      }, 2000)
-    }
   },
   name: "TheButton"
 }

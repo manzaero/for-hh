@@ -65,6 +65,9 @@
     background-color: $brown;
     color: $black;
   }
+  &__cart-form {
+    margin: 100px;
+  }
 }
 
 @media (max-width: 1399.8px) {

@@ -31,6 +31,6 @@ export default {
       updateQuery: this.updateQuery
     }
   },
-  name: 'HelloWorld'
+  name: 'TheMain'
 }
 </script>
