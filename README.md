@@ -22,6 +22,9 @@ git clone https://github.com/manzaero/for-hh
 ```
 npm run serve
 ```
+be sure after starting the project, run:
+
+json-server --watch db.json
 
 ### Compiles and minifies for production
 ```
